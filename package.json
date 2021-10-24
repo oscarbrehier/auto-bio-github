@@ -1,0 +1,29 @@
+{
+  "name": "auto-update-github-bio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarBrehier/auto-github-bio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarBrehier/auto-github-bio/issues"
+  },
+  "homepage": "https://github.com/OscarBrehier/auto-github-bio#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "date-fns": "^2.25.0",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.14"
+  }
+}
