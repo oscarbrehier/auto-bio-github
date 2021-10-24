@@ -39,8 +39,6 @@ async function init() {
     const today = moment(Date.now()).format('MMMM Do YYYY');
     const message = `A young ${age} year-old programmer - Coded Today (${today}): ${codeTime}`;
 
-    console.log(message);
-
     try {
 
         await axios({
@@ -67,4 +65,4 @@ async function init() {
 }
 
 init();
-setInterval(init, 60 * 1000 * 15);
+setInterval(init, 1200000);
