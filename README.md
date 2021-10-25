@@ -2,7 +2,7 @@
 
 ## Requirements
 1. Wakatime API-key:  https://wakatime.com/settings/api-key
-2. Github Token: generate your token by making sure to select the ``user`` scope
+2. Github Token: https://github.com/settings/tokens generate your token by making sure to select the ``user`` scope
 
 ## Installation
 1. Download or clone this repository
